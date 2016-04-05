@@ -1,4 +1,4 @@
-# NgModel-Validation
+# Ng2-ModelValidation
 Ability to use typescript annotation (same as es6 annotation) to angular2 models to include validation logic that can be used in model driven forms.
 
 
@@ -49,7 +49,7 @@ export class FooBarComponent {
 	form: ControlGroup;
 
 	constructor(fb: FormBuilder) {
-		this.form = fb.group(Ng2Validation.getValidation(vm));
+		this.form = fb.group(Ng2ModelValidation.getValidation(vm));
 	}
 
 
