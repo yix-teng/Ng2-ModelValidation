@@ -39,7 +39,7 @@ Our simple angular2 model driven form.
 
 In the component, we need to inject the formbuilder via the construtor and include our module to get the validation logic from our model.
 
-**Ng2Validation.getValidation(vm)** will return the necessary information for the validation logic needed.
+**Ng2ModelValidation.getValidation(vm)** will return the necessary information for the validation logic needed.
 
 ```
 export class FooBarComponent {
