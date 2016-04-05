@@ -5,7 +5,7 @@ Ability to use typescript annotation (same as es6 annotation) to angular2 models
 Our sample view model, decorated with annoations to help add validation logic.
 ```
 class ViewModel {
-	@required
+	@required(error-message='An ID is required')
 	id: string;
 	
 	@range(1, 100)
